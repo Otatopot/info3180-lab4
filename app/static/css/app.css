@@ -18,3 +18,19 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+ul#uploaded-images {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li img.uploaded-image {
+    height: 270px;
+    width: 340px;
+}
